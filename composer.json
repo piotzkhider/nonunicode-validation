@@ -1,0 +1,22 @@
+{
+  "name": "piotzkhider/nonunicode-validation",
+  "description": "Validation package that does not pass Unicode.",
+  "keywords": ["laravel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "piotzkhider",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.3.*",
+    "illuminate/validation": "5.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Piotzkhider\\NonUnicodeValidation\\": "src"
+    }
+  }
+}
